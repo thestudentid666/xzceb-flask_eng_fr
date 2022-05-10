@@ -22,4 +22,4 @@ def renderIndexPage():
     return render_template('index.html') # Write the code to render template
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8083)
+    app.run(host="0.0.0.0", port=8080)
