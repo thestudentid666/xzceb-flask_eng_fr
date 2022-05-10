@@ -34,4 +34,3 @@ def frenchToEnglish(txt):
     """
     result = LANGUAGESVR.translate(text=txt, model_id='fr-en').get_result()
     return result['translations'][0]['translation']
-
